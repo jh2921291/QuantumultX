@@ -32,7 +32,7 @@ const __conf = String.raw`
 [eval_remote]
 // custom remote...
 
-https://raw.githubusercontent.com/yichahucha/surge/master/sub_eval.conf
+https://raw.githubusercontent.com/Orz-3/QuantumultX/script/magic.conf
 
 
 [eval_local]
