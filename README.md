@@ -21,5 +21,3 @@
 @onewayticket255 哔哩哔哩动画去广告
 
 @Wangsc1 联通营业厅去轮播广告
-
-@songyangzz testfligh监测
