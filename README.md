@@ -19,5 +19,3 @@
 @yichahucha 去微博应用内广告 
 
 @onewayticket255 哔哩哔哩动画去广告
-
-@Wangsc1 联通营业厅去轮播广告
