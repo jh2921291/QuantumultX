@@ -12,8 +12,6 @@
 
 @NobyDa 贴吧，吾爱，爱奇艺签到等
 
-@Chavy 联通营业厅签到
-
 @Choler 去微信公众号广告
 
 @yichahucha 去微博应用内广告 
