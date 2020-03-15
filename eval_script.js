@@ -4,6 +4,8 @@ const __conf = String.raw`
 [eval_local]
 // custom local...
 `
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS.conf
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_GetCookie.conf
 
 const __emoji = "• "
 const __emojiDone = "✔️"
