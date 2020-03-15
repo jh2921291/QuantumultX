@@ -4,7 +4,36 @@ const __conf = String.raw`
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS_eval.conf
 [eval_local]
 // custom local...
-`
+# 去微博应用内广告 (By yichahucha)
+# response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|\!/photos/pic_recommend_status) eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wb_ad.js
+# response #^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wb_launch.js
+
+# 去微信公众号广告 (By Choler)
+# response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+
+# 哔哩哔哩动画去广告 (By onewayticket255)
+# response ^https://app.bilibili.com/x/resource/show/tab\?access_key eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilibiliTab.js
+# response ^https://app.bilibili.com/x/v2/feed/index\?access_key eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilibiliFeed.js
+# response ^https://app.bilibili.com/x/v2/account/mine\?access_key eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilibiliAccount.js
+# response ^https://app.bilibili.com/x/v2/view\?access_key eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilibiliViewRelate.js
+# response ^https://app.bilibili.com/x/v2/rank eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilibiliRank.js
+# response ^https://api.bilibili.com/x/v2/reply/main\?access_key eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilibiliReply.js
+# response ^https://app.bilibili.com/x/v2/show/popular/index\?access_key eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilibiliHot.js
+
+# 哔哩哔哩番剧开启1080P+
+# response ^https?:\/\/api\.bilibili\.com\/pgc\/player\/api\/playurl eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js
+
+# VSCO滤镜VIP
+# response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ eval https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+
+# WPS (By eHpo)
+# response ^https://account.wps.cn/api/users/ eval https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+
+# Termius 解锁本地pro  (By Maasea)
+# response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ eval https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Termius.js
+
+# VUE pro
+# response ^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) eval https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js`
 const __emoji = "• "
 const __emojiDone = "✔️"
 const __emojiTasks = "🕐"
