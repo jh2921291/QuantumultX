@@ -12,10 +12,10 @@ https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS.conf
 `
 
 const __emoji = "• "
-const __emojiDone = "✔️"
-const __emojiTasks = "🕐"
-const __emojiFail = "🙃"
-const __emojiSuccess = "😀"
+const __emojiDone = ""
+const __emojiTasks = ""
+const __emojiFail = ""
+const __emojiSuccess = ""
 const __showLine = 20
 
 const __log = false
