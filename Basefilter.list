@@ -52,9 +52,5 @@ DOMAIN,router.asus.com,🎯 全球直连
 #App Store下载转圈
 ;host, p14-buy.itunes.apple.com, proxy
 
-#中国ip直连和无规则定义的处理
-GEOIP,CN,🎯 全球直连
-FINAL,🐟 漏网之鱼
-
 
 
