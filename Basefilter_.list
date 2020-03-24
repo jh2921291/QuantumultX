@@ -1,0 +1,60 @@
+#黑色沙漠韩服代理
+; host-suffix, pearl-bdm.com, proxy
+; host-suffix, blackdesertm.com, proxy
+
+#苹果绕过企业证书过期
+host, ocsp.apple.com, 🛑 全球拦截
+
+#苹果拦截升级提示
+host, ns.itunes.apple.com,🛑 全球拦截
+host, appldnld.apple.com,🛑 全球拦截
+host, mesu.apple.com,🛑 全球拦截
+host, xp.apple.com,🛑 全球拦截
+host, gdmf.apple.com,🛑 全球拦截
+
+#TIKTOK-去水印广告拦截
+host-suffix, musical.ly, 🚀 节点选择
+host-suffix, tiktokv.com,🚀 节点选择
+host-suffix, tiktokcdn.com,🚀 节点选择
+host-suffix, -tiktokcdn-com,🚀 节点选择
+host-suffix, muscdn.com, 🚀 节点选择
+user-agent, TikTok*, 🚀 节点选择
+
+;user-agent, ?abc*, proxy
+;host, www.google.com, proxy
+;host-keyword, adsite, reject
+;host-suffix, googleapis.com, proxy
+
+;本地/局域网地址直连
+DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
+DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+DOMAIN-SUFFIX,local,🎯 全球直连
+DOMAIN-SUFFIX,localhost,🎯 全球直连
+IP-CIDR,10.0.0.0/8,🎯 全球直连
+IP-CIDR,100.64.0.0/10,🎯 全球直连
+IP-CIDR,127.0.0.0/8,🎯 全球直连
+IP-CIDR,172.16.0.0/12,🎯 全球直连
+IP-CIDR,192.168.0.0/16,🎯 全球直连
+
+# Router managed 路由器管理域名
+DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
+DOMAIN-SUFFIX,leike.cc,🎯 全球直连
+DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+DOMAIN-SUFFIX,my.router,🎯 全球直连
+DOMAIN-SUFFIX,p.to,🎯 全球直连
+DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
+DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
+DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
+DOMAIN-SUFFIX,zte.home,🎯 全球直连
+DOMAIN,router.asus.com,🎯 全球直连
+
+#App Store下载转圈
+;host, p14-buy.itunes.apple.com, proxy
+
+#中国ip直连和无规则定义的处理
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+
+
