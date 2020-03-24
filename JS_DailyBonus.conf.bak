@@ -19,6 +19,6 @@
 
 
 
-# jh的自定义脚本定时
+# jh的自定义脚本定时不支持订阅
 ;京东签到
-0 9 * * * NobyDa/JD-DailyBonus/JD_DailyBonus.js
+# 0 9 * * * NobyDa/JD-DailyBonus/JD_DailyBonus.js
