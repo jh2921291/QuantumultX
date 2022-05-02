@@ -1,0 +1,7 @@
+🎶Music1 = http,106.52.127.72,19951
+🎶Music2 = http,os.dlj.tf,20000
+🎶Music3 = http,os.dlj.tf,30000
+shadowsocks=music.desperadoj.com:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_emx2, fast-open=false, udp-relay=false, tag=🎶Music4
+shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_emx2, fast-open=false, udp-relay=false, tag=🎶Music5
+http=music.lolico.me:39000, fast-open=false, udp-relay=false, tag=🎶Music6
+http=block4music.poetyin.me:39000, fast-open=false, udp-relay=false, tag=🎶Music7
